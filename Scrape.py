@@ -1,6 +1,15 @@
 import requests
+import json
 from bs4 import BeautifulSoup
-page = requests.get('https://api.louisvuitton.com/api/eng-ca/catalog/filter/epy4e8?range=0-50')
 
-soup = BeautifulSoup(page.content, 'html.parser')
-print(soup)
+url = 'https://ca.octobersveryown.com/collections/all'
+
+r = requests.get(url)
+
+soup = BeautifulSoup(r.content, 'html.parser')
+
+clothing = (soup.find_all(id='content'))
+
+print(clothing)
+
+print(clothing.find_all('li'))
