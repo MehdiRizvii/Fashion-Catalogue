@@ -13,6 +13,7 @@ clothing = bodies.find_all("ul", "grid--full product-grid-items")
 for span_tag in soup.findAll('span', 'visually-hidden'):
     span_tag.replace_with('')
 
+print(clothing[0].find('img')['src'])
 print(clothing[0].find("p", 'product-title').get_text())
 print(clothing[0].find("span", 'grid-price-money').get_text())
 
