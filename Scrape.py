@@ -1,5 +1,4 @@
 import requests
-import json
 from bs4 import BeautifulSoup
 
 url = 'https://ca.octobersveryown.com/collections/all'
@@ -8,8 +7,10 @@ r = requests.get(url)
 
 soup = BeautifulSoup(r.content, 'html.parser')
 
-clothing = (soup.find_all(id='content'))
+bodies = (soup.find(id='content'))
+
+clothing = bodies.find_all("ul", "grid--full product-grid-items")
 
 print(clothing)
 
-print(clothing.find_all('li'))
+
