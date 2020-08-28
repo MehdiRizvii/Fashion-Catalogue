@@ -9,11 +9,11 @@ driver = webdriver.Chrome(PATH)
 
 driver.get("https://ca.octobersveryown.com/collections/all")
 
-scrolls = 11
+scrolls = 20
 while True:
     scrolls -= 1
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
-    time.sleep(0.1)
+    time.sleep(0.2)
     if scrolls < 0:
         break
 
@@ -30,8 +30,6 @@ for span_tag in soup.findAll(class_='visually-hidden'):
 print(clothing[0].find('img')['src'])
 print(clothing[0].find(class_='product-title').get_text())
 print(clothing[0].find(class_='grid-price-money').get_text())
-
-
 
 time.sleep(8)
 
