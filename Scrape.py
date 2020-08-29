@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-url = 'https://uk.octobersveryown.com/collections/all?page={page}&view=pagination-ajax'
+url = 'https://ca.octobersveryown.com/collections/all?page={page}&view=pagination-ajax'
 
 page = 1
 while True:
