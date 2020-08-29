@@ -1,37 +1,21 @@
-from selenium import webdriver
+import requests
 from bs4 import BeautifulSoup
-import time
 
 
-PATH = "C:\Program Files (x86)\chromedriver.exe"
+url = 'https://uk.octobersveryown.com/collections/all?page={page}&view=pagination-ajax'
 
-driver = webdriver.Chrome(PATH)
-
-driver.get("https://ca.octobersveryown.com/collections/all")
-
-scrolls = 22
+page = 1
 while True:
-    scrolls -= 1
-    driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
-    time.sleep(0.2)
-    if scrolls < 0:
+    soup = BeautifulSoup( requests.get(url.format(page=page)).content, 'html.parser' )
+
+    li = soup.find_all('li', recursive=False)
+    if not li:
         break
 
-html = driver.page_source
+    for l in li:
+        print(l.select_one('p a').get_text(strip=True))
+        print('https:' + l.img['src'])
+        print(l.select_one('.grid-price').get_text(strip=True, separator=' '))
+        print('-' * 80)
 
-soup = BeautifulSoup(html, 'html.parser')
-
-bodies = (soup.find(id='content'))
-
-clothing = bodies.find_all(class_='grid--full product-grid-items')
-for span_tag in soup.findAll(class_='visually-hidden'):
-    span_tag.replace_with('')
-
-print(clothing[0].find('img')['src'])
-print(clothing[0].find(class_='product-title').get_text())
-print(clothing[0].find(class_='grid-price-money').get_text())
-
-time.sleep(8)
-
-driver.quit()
-
+    page += 1

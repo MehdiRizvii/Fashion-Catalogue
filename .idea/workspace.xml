@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="457ab6e7-ac3c-498c-8d5d-ab1840133f1a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scrape.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scrape.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scrape.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state>
+              <caret selection-end-line="38" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -26,17 +26,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/bs4/element.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23766">
-              <caret line="1400" selection-start-line="1400" selection-end-line="1400" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/bs4/element.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="723">
+              <caret line="2160" selection-start-line="2160" selection-end-line="2160" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -52,8 +69,8 @@
     <findStrings>
       <find>mar</find>
       <find>pom pom</find>
-      <find>pom</find>
       <find>cap</find>
+      <find>pom</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -62,15 +79,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Scrape.py" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="2" />
-    <option name="width" value="1192" />
+    <option name="x" value="379" />
+    <option name="y" value="122" />
+    <option name="width" value="1468" />
     <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -85,6 +102,10 @@
             <path>
               <item name="Webscraper" type="b2602c69:ProjectViewProjectNode" />
               <item name="Webscraper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Webscraper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -112,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Scrape">
+  <component name="RunManager" selected="Python.test">
     <configuration name="Scrape" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Webscraper" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,8 +180,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Scrape" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.Scrape" />
       </list>
     </recent_temporary>
   </component>
@@ -178,23 +199,22 @@
       <workItem from="1598550856396" duration="14311000" />
       <workItem from="1598568089985" duration="2198000" />
       <workItem from="1598636374666" duration="5481000" />
-      <workItem from="1598725603947" duration="339000" />
+      <workItem from="1598725603947" duration="5788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37089000" />
+    <option name="totallyTimeSpent" value="42538000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="2" width="1192" height="1407" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29240283" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13155803" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" x="23" y="494" width="1234" height="419" id="Run" order="2" visible="true" weight="0.32810047" />
+      <window_info active="true" anchor="bottom" x="23" y="494" width="1234" height="419" id="Run" order="2" visible="true" weight="0.3257989" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -227,29 +247,44 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Webscraper$test.coverage" NAME="test Coverage Results" MODIFIED="1598473659792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Webscraper$Scrape.coverage" NAME="Scrape Coverage Results" MODIFIED="1598725867230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Webscraper$Scrape.coverage" NAME="Scrape Coverage Results" MODIFIED="1598742901529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Webscraper$test.coverage" NAME="test Coverage Results" MODIFIED="1598742910003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/bs4/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="2160" selection-start-line="2160" selection-end-line="2160" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Scrape.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        <state>
+          <caret selection-end-line="38" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/bs4/element.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23766">
-          <caret line="1400" selection-start-line="1400" selection-end-line="1400" />
+        <state relative-caret-position="187">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
