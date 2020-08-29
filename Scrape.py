@@ -9,7 +9,7 @@ driver = webdriver.Chrome(PATH)
 
 driver.get("https://ca.octobersveryown.com/collections/all")
 
-scrolls = 20
+scrolls = 22
 while True:
     scrolls -= 1
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
