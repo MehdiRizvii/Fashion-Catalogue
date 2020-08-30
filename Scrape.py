@@ -6,7 +6,7 @@ url = 'https://ca.octobersveryown.com/collections/all?page={page}&view=paginatio
 
 page = 1
 while True:
-    soup = BeautifulSoup( requests.get(url.format(page=page)).content, 'html.parser' )
+    soup = BeautifulSoup(requests.get(url.format(page=page)).content, 'html.parser')
 
     li = soup.find_all('li', recursive=False)
     if not li:
@@ -19,3 +19,4 @@ while True:
         print('-' * 80)
 
     page += 1
+
