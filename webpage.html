@@ -3,52 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>LuxGoods</title>
-    <script src="script.js"></script>
     <link href="style.css" rel="stylesheet">
+        <script src="script.js" defer></script>
+
 </head>
 <body>
-<ul>
-    <li data-tab-target="#ovo">OVO</li>
-    <li data-tab-target="#rolex">Rolex</li>
-    <li data-tab-target="#lv">Louis Vuitton</li>
-    <li data-tab-target="#stussy">Stussy</li>
-</ul>
+<h1 class="siteName"> LuxGoods</h1>
+  <ul class="tabs">
+    <li data-tab-target="#ovo" class="active tab">OVO</li>
+    <li data-tab-target="#stussy" class="tab">Stussy</li>
+            <li data-tab-target="#rolex" class="tab">Rolex</li>
+    <li data-tab-target="#lv" class="tab">Louis vuitton</li>
+  </ul>
 
-<div class = "tab-content">
-
-    <div id="ovo" data-tab-content>
-        <h2> OVO Shop</h2>
-        <p>Welcome to the OVO</p>
-
+  <div class="tab-content">
+    <div id="ovo" data-tab-content class="active">
+      <h1>OVO Shop</h1>
+      <p>This is the home</p>
+    </div>
+    <div id="stussy" data-tab-content>
+      <h1>Stussy</h1>
+      <p>Some information on pricing</p>
+    </div>
+    <div id="rolex" data-tab-content>
+      <h1>Rolex Shop</h1>
+      <p>Let me tell you about me</p>
+    </div>
+         <div id="lv" data-tab-content>
+      <h1>Louis Vuitton</h1>
+      <p>Let me tell you about me</p>
     </div>
 
-
-    <div id="rolex" data-tab-content>
-
-        <h3> Rolex Shop</h3>
-        <p> Welcome to Rolex</p>
-
-</div>
-
-<div id="lv" data-tab-content>
-
-    <h4> Louis Vuitton</h4>
-    <p> Welcome to Louis Vuitton</p>
-
-</div>
-
-<div id="stussy" data-tab-content>
-    <h5> Stussy</h5>
-<p> Welcome to Stussy</p>
-
-</div>
-
-
-
-</div>
-
-
-
+  </div>
 
 </body>
 </html>
