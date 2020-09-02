@@ -45,4 +45,12 @@ h1 {
 }
 .siteName {
   font-size: 30px;
+  background-color: lightpink;
+  padding: 15px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 0px;
+}
+.background {
+  background-color: #85144b;
 }
