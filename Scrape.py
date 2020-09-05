@@ -15,8 +15,8 @@ while True:
         break
 
     for l in li:
-        d = {'name': l.select_one('p a').get_text(strip=True),
-             'link': 'https:' + l.img['src'],
+        d = {'link': 'https:' + l.img['src'],
+             'name': l.select_one('p a').get_text(strip=True),
              'price': l.select_one('.grid-price').get_text(strip=True, separator=' ')}
         all_data.append(d)
         print(d)
