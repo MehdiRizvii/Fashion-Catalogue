@@ -58,3 +58,11 @@ h1 {
 table{
   margin-left: 750px;
 }
+td {
+  text-align: center;
+}
+tr {
+  background-color: #FFFFF0	;
+}
+body{
+}
