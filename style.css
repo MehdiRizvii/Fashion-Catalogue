@@ -56,7 +56,8 @@ h1 {
   background-color: #85144b;
 }
 table{
-  margin-left: 750px;
+    margin-left: auto;
+  margin-right: auto;
 }
 td {
   text-align: center;
@@ -72,4 +73,21 @@ p{
   font-size: 18px;
   font-weight: bold;
   text-align: center;
+}
+input[type=checkbox] {
+  display: none
+}
+
+ img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in
+}
+
+input[type=checkbox]:checked~img {
+  transform: scale(2);
+  cursor: zoom-out
+}
+img{
+  max-height: 500px;
+  max-width: 400px;
 }
