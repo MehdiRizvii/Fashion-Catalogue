@@ -85,9 +85,35 @@ input[type=checkbox] {
 
 input[type=checkbox]:checked~img {
   transform: scale(2);
-  cursor: zoom-out
+  cursor: zoom-out;
+  border: solid black 2px;
 }
 img{
   max-height: 500px;
   max-width: 400px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#A28089;
+  min-width: 160px;
+  box-shadow: #AAA;
+  padding: 5px 5px;
+  z-index: 1;
+  border-bottom: solid black 1px;
+    border-left: solid black 1px;
+  border-right: solid black 1px;
+  border-top: dashed black 1px;
+  border-radius: 4px 4px 4px;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
 }

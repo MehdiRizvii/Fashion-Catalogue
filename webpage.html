@@ -11,12 +11,18 @@
 <body>
 <div class="background">
 <h1 class="siteName"> LuxGoods</h1>
-  <ul class="tabs">
+
+      <ul class="tabs">
     <li data-tab-target="#ovo" class="active tab">OVO</li>
     <li data-tab-target="#stussy" class="tab">Stussy</li>
             <li data-tab-target="#rolex" class="tab">Rolex</li>
     <li data-tab-target="#lv" class="tab">Louis vuitton</li>
+      <div class="dropdown">
+          <li data-tab-target="#about" class="tab">About me &#9662</li>
+          <div class="dropdown-content">  <li data-tab-target="#contact" class="tab">Contact me</li> </div>
+      </div>
   </ul>
+
 </div>
   <div class="tab-content">
     <div id="ovo" data-tab-content class="active">
@@ -1303,6 +1309,23 @@
          <div id="lv" data-tab-content>
       <h1>Louis Vuitton</h1>
       <p>Welcome to Louis Vuitton</p>
+    </div>
+     <div id="about" data-tab-content>
+      <h1>About </h1>
+      <p>Welcome to LuxGoods! Were all about getting the latest fashion to you by having your favorite brands presented to you in such a way that you can sort through their catalogue without any trouble.</p>
+    </div>
+       <div id="contact" data-tab-content>
+      <h1>Contact me </h1>
+      <p> Hi! I'd love to hear your feedback and if there's anything you'd like to see added. So dont be shy and send me an email.</p>
+           <form class="contact-form" action="contactform.php" method="post">
+
+               <input type="text" name="name" placeholder="Full name">
+               <input type="text" name="mail" placeholder="Your e-mail">
+               <input type="text" name="subject" placeholder="Subject">
+<textarea name="message"placeholder="Message"></textarea>
+               <button type="submit" name="submit">SEND MAIL</button>
+           </form>
+
     </div>
 
   </div>
