@@ -117,3 +117,25 @@ img{
   display: block;
 
 }
+form
+{
+  height:100%;
+  flex: 1 1 auto;
+  margin-left: 47%;
+  display:block;
+  margin-top: 3%;
+}
+form input   {
+  display:block;
+  padding: 5px;
+  margin-top: 15px;
+}
+form button {
+  display: block;
+  margin-top: 15px;
+}
+form textarea {
+  display:block;
+  padding: 5px;
+  margin-top: 15px;
+}
